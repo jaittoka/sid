@@ -64,9 +64,9 @@ parse = (str, opts = {}) ->
       when T_ITEM
         item = 
           name: s.name
-          value: if typeof s.value is 'function' then s.value opts else s.value
-          children: []
-        parent.children.push item
+        if s.value?
+          item.value = if typeof s.value is 'function' then s.value opts else s.value
+        (parent.children ?= []).push item
       else
         throw new Error 'Invalid item type: '+s.type
   parent.children
