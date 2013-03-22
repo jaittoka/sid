@@ -50,26 +50,22 @@ Above code would print:
     "children": [
       {
         "name": "name",
-        "value": "John Doe",
-        "children": []
+        "value": "John Doe"
       },
       {
         "name": "address",
         "children": [
           {
             "name": "street",
-            "value": "W 38th St 412",
-            "children": []
+            "value": "W 38th St 412"
           },
           {
             "name": "code",
-            "value": 94823,
-            "children": []
+            "value": 94823
           },
           {
             "name": "town",
-            "value": "New York",
-            "children": []
+            "value": "New York"
           }
         ]
       },
@@ -78,18 +74,15 @@ Above code would print:
         "children": [
           {
             "name": "street",
-            "value": "Chestnut St 12",
-            "children": []
+            "value": "Chestnut St 12"
           },
           {
             "name": "code",
-            "value": 52362,
-            "children": []
+            "value": 52362
           },
           {
             "name": "town",
-            "value": "San Francisco",
-            "children": []
+            "value": "San Francisco"
           }
         ]
       }
