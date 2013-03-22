@@ -7,6 +7,15 @@ for simplifying the data normally entered in JSON-format.
 It is very lightweight: code is less than 80 lines of CoffeeScript and it has
 no dependencies to other modules.
 
+Install
+-------
+Installation using Node Package Manager.
+
+Run the following under your application directory:
+```
+npm install sid
+```
+
 Overview
 --------
 
