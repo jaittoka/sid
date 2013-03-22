@@ -1,0 +1,21 @@
+{
+  "name": "sid",
+  "version": "0.0.1",
+  "description": "Simple data description language",
+  "author": "Jukka Aittokallio <jukka@aittokallio.com>",
+  "homepage": "http://github.com/jaittoka/sid",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaittoka/sid.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licence": "MIT",
+  "main": "lib/sid.js",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.3"
+  },
+  "dependencies": {}
+}
